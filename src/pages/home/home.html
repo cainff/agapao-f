@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <div (click)="lienConnection()">Connection</div>
+  <div padding (click)="lienInscription()">Inscription</div>
+  <div>users:{{users | json }}</div>
+  <div *ngFor="let user of users">user : {{user.nom}}</div>
+    
+</ion-content>

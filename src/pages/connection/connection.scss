@@ -1,0 +1,71 @@
+page-connection {
+
+}
+
+
+#buttonCo {
+
+}
+
+.item-block {
+    margin: 0;
+    padding: 0;
+    text-align: initial;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 90%;
+    min-height: 4.4rem;
+    border: 0;
+    font-weight: normal;
+    line-height: normal;
+    text-decoration: none;
+    color: inherit;
+    margin: 0 auto;
+}
+
+
+.button-small-ios {
+    height: 2.1em;
+    font-size: 1.7rem;
+    padding: 0px 4.9em !important;
+}
+
+.ion-co {
+    /* padding-left: 16px; */
+    padding-left: 0px;
+    border-top: 1px solid #000 !important;
+    border-bottom: 1px solid;
+    margin-bottom: 7%;
+    border-radius: 6px;
+    position: relative;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    font-size: 1.3rem;
+    color: #000;
+    background-color: #fff;
+    -webkit-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+.inputCo {
+    position: relative;
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 100%;
+    padding-left: 10%;
+}
+
